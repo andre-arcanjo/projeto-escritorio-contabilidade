@@ -77,6 +77,10 @@ body{
     height: 80vh;
 }
 
+.hero img{
+    max-width: 100%;
+}
+
 .hero:after{
     content: url(../images/seta_preta.png);
     height: 35px;
@@ -169,7 +173,7 @@ body{
     }
 
     .sobre .equipe img {
-        width: 100%;
+        width: 150%;
     }
 }
 
@@ -314,9 +318,11 @@ textarea{
 
 .button{
     background-color: rgb(16, 135, 67);
-    width: 70px;
+    width: 100px;
+    height: 22px;
     color: #ffff;
     cursor: pointer;
+    border: none;
 }
 
 .botao{

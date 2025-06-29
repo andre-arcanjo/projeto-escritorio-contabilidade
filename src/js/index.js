@@ -11,8 +11,10 @@ btnValidacao.addEventListener('click', () => {
         if(input.value === ""){
             formularioValidado = false
             input.classList.add('input-nao-preenchido');
+            event.preventDefault();
         }else{
             input.classList.remove('input-nao-preenchido');
+            event.preventDefault();
         }
     })
 
